@@ -1,0 +1,48 @@
+{
+  "menu": [
+    {
+      "menuHeader": "Filter"
+    },
+    {
+      "name": "Kategori",
+      "icon": "menu-icon tf-icons bx bx-store",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "/vouchers?kategori=Elektronik",
+          "name": "Elektronik",
+          "slug": "layouts-without-menu"
+        },
+        {
+          "url": "/vouchers?kategori=Makanan",
+          "name": "Makanan",
+          "slug": "layouts-without-navbar"
+        },
+        {
+          "url": "/vouchers?kategori=Fashion",
+          "name": "Fashion",
+          "slug": "layouts-container"
+        },
+        {
+          "url": "/vouchers?kategori=Alat Masak",
+          "name": "Alat Masak",
+          "slug": "layouts-fluid"
+        },
+        {
+          "url": "/vouchers?kategori=Kecantikan",
+          "name": "Kecantikan",
+          "slug": "layouts-blank"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Authentications"
+    },
+    {
+      "url": "/login",
+      "name": "Log Out",
+      "icon": "menu-icon tf-icons bx bx-log-out bx-md",
+      "slug": "logout"
+    }
+  ]
+}
